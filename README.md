@@ -36,4 +36,5 @@ reddit = praw.Reddit(
     client_id='YOUR_REDDIT_CLIENT_ID',  # Replace with your Reddit app personal use script
     client_secret='YOUR_REDDIT_CLIENT_SECRET',  # Replace with your Reddit app client_secret aka secret key
     user_agent='python:meme_bot:v1.0 (by /u/YOUR_REDDIT_USERNAME)'  # Replace with your Reddit username
+    client.run('YOUR_DISCORD_BOT_TOKEN')  # Replace TOKEN with your Discord bot token
 )
