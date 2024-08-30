@@ -4,9 +4,9 @@ import random
 import os
 
 reddit = praw.Reddit(
-    client_id='9qjJGPvCXZ-TEt-IU6chHQ', # personal use script
-    client_secret='pUPP-NXVNIKElfroTy0zOrqYDDWefQ', # secret key
-    user_agent='python:meme_bot:v1.0 (by /u/Some_Finding_7514)' # CHANGE THE NAME TO YOURS
+    client_id='personal use script', # personal use script
+    client_secret='secret key', # secret key
+    user_agent='python:meme_bot:v1.0 (by /u/USERNAME_HERE)' # CHANGE THE NAME TO YOURS
 )
 
 subreddits = ['memes', 'Memes_Of_The_Dank'] # you can here change what subreddits the bot will use
